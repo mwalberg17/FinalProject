@@ -16,5 +16,18 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+
+        private void uxMainLogBtn_Click(object sender, EventArgs e)
+        {
+            DailyLogForm dailyLogForm = new DailyLogForm();
+            dailyLogForm.Show();
+        }
+
+        private void uxMainScheduleBtn_Click(object sender, EventArgs e)
+        {
+            //ScheduleForm 
+            ScheduleForm scheduleForm = new ScheduleForm();
+            scheduleForm.Show();
+        }
     }
 }
